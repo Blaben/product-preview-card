@@ -80,8 +80,12 @@ h2{
     justify-content: center;
     text-align: center;
     background-color: hsl(158, 36%, 37%);
-    padding: 7px;
+    padding: 10px;
     border-radius: 5px;
+}
+
+.cart:hover{
+    background-color: hsl(160, 16%, 11%);
 }
 
 .cart >a> img{
