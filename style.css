@@ -1,9 +1,13 @@
 
 body{
     background-color: hsl(30, 38%, 92%);
+    font-family: 'Montserrat';
+    font-size: 14px;
+    font-weight: 500;
 }
 
-.attribution { font-size: 11px; text-align: center; }
+.attribution { font-size: 11px; text-align: center;
+    margin-top: 20px; }
 .attribution a { color: hsl(228, 45%, 44%); }
 
 .container{
@@ -14,32 +18,74 @@ body{
 
 .left-card{
     max-width: 200px;
-    max-height: 300px;
+    max-height: 350px;
    
 }
 
 .rimg{
     max-width: 200px;
-    height: 300px;
+    height: 350px;
     border-radius: 10px 0px 0px 10px;
 }
 
 
 .right-card{
     background-color: white;
-    width: 200px;
-    height: 300px;
+    max-width: 200px;
+    height: 350px;
     border-radius: 0px 10px 10px 0px;
-    padding: 10px;
+    padding: 0px 15px;
 }
 
 p, .old-price{
     color: hsl(228, 12%, 48%);
-    font-size: 12px;
-    font-family: 'montserrat';
-    font-weight: 500px;
+    font-weight:500;
 }
 
 .caps{
+    margin-top: 25px;
     text-transform: uppercase;
+    letter-spacing: 5px;
 }
+
+h2{
+    font-family: 'Fraunces';
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 30px;
+    margin: 15px 0px;    
+}
+
+.text{
+    line-height: 20px;
+}
+
+.price{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.new-price{
+    font-family: 'Fraunces';
+    font-weight: 700;
+    font-size: 25px;
+    color: hsl(158, 36%, 37%);
+}
+
+.old-price{
+    text-decoration:line-through;
+}
+
+.cart{
+    background-color: hsl(158, 36%, 37%);
+    padding: 7px;
+
+}
+
+.cart>a{
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+}
+
