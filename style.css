@@ -1,5 +1,6 @@
 
 body{
+    max-width: 1440px;
     background-color: hsl(30, 38%, 92%);
     font-family: 'Montserrat';
     font-size: 12px;
@@ -142,6 +143,7 @@ h2{
 
 
     .right-card{
+        display: block;
         max-width: 260px;
         height: 360px;
         background-color: white;
